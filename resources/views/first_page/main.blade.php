@@ -12,7 +12,10 @@
 <body>
       @include('Navbar.navbar')
       <a>{{ $page_container }}</a>
-        @yield('Allthings')
+       @yield('categ')
+       <div class="flex flex justify-between px-5 py-5">    
+         @yield('Allthings')
+       </div>
       @include('Footer.footer')
 </body>
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>

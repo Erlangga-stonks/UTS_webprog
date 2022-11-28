@@ -36,38 +36,33 @@ Route::get(
     );
 
 Route::get(
-    '/category2{id}',
-     [TypeBooksController::class, 'category2']
+    '/Category2{id}',
+     [TypeBooksController::class, 'Category2']
     );
 
 Route::get(
-    '/category3{id}',
-     [TypeBooksController::class, 'category3']
+    '/Category3{id}',
+     [TypeBooksController::class, 'Category3']
     );
 
 Route::get(
-    '/Publisher',
-     [TypeBooksController::class, 'Publisher']
+    '/publisher1{id}',
+     [PublisherController::class, 'publisher1']
     );
 
 Route::get(
-    '/PublisherSimegawa{id}',
-     [PublisherController::class, 'Publishersimegawa']
+    '/publisher2{id}',
+     [PublisherController::class, 'publisher2']
     );
 
 Route::get(
-    '/PublisherTika{id}',
-     [PublisherController::class, 'PublisherTika']
+    '/publisher3{id}',
+     [PublisherController::class, 'publisher3']
     );
 
 Route::get(
-    '/PublisherEka{id}',
-     [PublisherController::class, 'PublisherEka']
-    );
-
-Route::get(
-    '/Contact',
-     [TypeBooksController::class, 'Contact']
+    '/ContactStore',
+     [TypeBooksController::class, 'ContactStore']
     );
 
 

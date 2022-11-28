@@ -6,8 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\books;
 
 
-
-class BookController extends Controller
+class TypeBookController extends Controller
 {
     
     public function index($id){
